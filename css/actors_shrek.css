@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to left top, transparent 25%, rgb(0, 107, 7) 50%);
+    background-size: 200% 200%;
+    background-position: right bottom; 
+    transition: background-position 1.2s;
+}
+
+.flex-container:hover::after
+{
+    background:  rgb(0, 107, 7) ;
+}
+
+.flex-container:hover::before{ 
+
+    background-color: rgb(169, 247, 202);
+    
+}
+
+a:hover:not(.logo-link){color: rgb(86, 218, 126);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
