@@ -50,14 +50,14 @@ header{
     ;
   }
 
-  .hero_1{
+    .hero_1{
     width: 100% !important;
   }
   .hero_2{
-    width: 1em;
+    width: 100% !important;
   }
   .hero_3{
-    width: 1em;
+    width:100% !important;
   }
   
 }
