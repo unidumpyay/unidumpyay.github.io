@@ -147,6 +147,16 @@ opacity: 0.5;
     padding: 20px;
     background-color: rgba(192, 99, 223, 0.493);
 }
+
+@media screen  and (max-width: 649px){
+    .contact-form{
+    margin-left: 10%;
+    width: 80%;
+    padding: 10px;
+    }
+  
+}
+
 .wrapper{
     width: 100%;
     display: grid;
@@ -159,6 +169,7 @@ opacity: 0.5;
     width: 100%;
     position: relative;
     padding: 20px;
+    padding-right: 0;
 }
 
 .wrapper .box input{
