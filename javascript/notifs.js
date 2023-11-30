@@ -6,7 +6,7 @@ notifNum.textContent = ("2");
 function addNotifs(){
     let num = parseInt(notifNum.textContent, 10);
     
-     notifNum.textContent = num + 1;
+     // notifNum.textContent = num + 1;
 
     
     // const n_span = document.createElement('span');
